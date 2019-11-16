@@ -1,0 +1,28 @@
+{
+  "name": "mutation-summary",
+  "version": "1.0.0",
+  "description": "Makes observing the DOM fast and easy",
+  "main": "dist/mutation-summary.js",
+  "types": "dist/mutation-summary.d.ts",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.google.com/p/mutation-summary/"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
